@@ -1,14 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- 
+      Este site foi desenvolvido com o auxílio de ferramentas de Inteligência Artificial 
+      para otimização de código, estrutura semântica e estilização CSS.
+      Desenvolvedor: [Seu Nome] | Ano: 2026
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte: Futuro Sustentável</title>
+    <style>
+        :root {
+            --verde-escuro: #1b4332;
+            --verde-principal: #2d6a4f;
+            --verde-claro: #52b788;
+            --bege-fundo: #f4f7f5;
+            --texto-escuro: #2d3142;
+            --branco: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bege-fundo);
+            color: var(--texto-escuro);
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho / Hero */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://unsplash.com') no-repeat center center/cover;
+            color: var(--branco);
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto;
+            color: var(--verde-claro);
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Seção de Introdução */
+        .introducao {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .introducao h2 {
+            color: var(--verde-escuro);
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .introducao p {
+            font-size: 1.1rem;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Grid de Pilares */
+        .grid-pilares {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background: var(--branco);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-top: 5px solid var(--verde-principal);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- 
+      Este site foi desenvolvido com o auxílio de ferramentas de Inteligência Artificial 
+      para otimização de código, estrutura semântica e estilização CSS.
+      Desenvolvedor: [Seu Nome] | Ano: 2026
+    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agro Forte: Futuro Sustentável</title>
@@ -135,8 +234,18 @@
             background-color: #112a1e;
             color: #a3b18a;
             text-align: center;
-            padding: 20px;
+            padding: 30px 20px;
             font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        footer .ia-credito {
+            font-size: 0.8rem;
+            color: var(--verde-claro);
+            opacity: 0.8;
         }
     </style>
 </head>
@@ -193,20 +302,114 @@
     <!-- Rodapé -->
     <footer>
         <p>&copy; 2026 Agro Forte Sustentável - Desenvolvido no VS Code</p>
-        <!-- 
- 
-
+        <p class="ia-credito">Desenvolvido com o auxílio de Inteligência Artificial</p>
     </footer>
-         <p>&copy;<!Este site foi desenvolvido com o auxílio de ferramentas de Inteligência Artificial 
-  (como GitHub Copilot / ChatGPT) para otimização de código, refatoração e design.
-  Desenvolvedor principal: [Seu Nome]
-  Ano: 2026
--->
 
+</body>
+</html>
+
+        .card h3 {
+            color: var(--verde-escuro);
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Destaque de Impacto */
+        .equilibrio-box {
+            background-color: var(--verde-escuro);
+            color: var(--branco);
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .equilibrio-box h2 {
+            color: var(--verde-claro);
+            margin-bottom: 15px;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #112a1e;
+            color: #a3b18a;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        footer .ia-credito {
+            font-size: 0.8rem;
+            color: var(--verde-claro);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Agro Forte & Sustentável</h1>
+        <p>O equilíbrio inteligente entre a alta produtividade e a preservação do planeta.</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
         
+        <!-- Introdução -->
+        <section class="introducao">
+            <h2>Alimentar o Mundo, Proteger a Terra</h2>
+            <p>O futuro do agronegócio não depende apenas de produzir mais por hectare, mas de produzir melhor. A união entre ciência, tecnologia campo e responsabilidade ambiental é o que define o verdadeiro Agro Forte.</p>
+        </section>
+
+        <!-- Pilares Sustentáveis -->
+        <section class="grid-pilares">
+            
+            <div class="card">
+                <h3>🌱 Bioinsumos e Defensivos Verdes</h3>
+                <p>Uso de soluções biológicas e micro-organismos para nutrir o solo e combater pragas, reduzindo a dependência de produtos químicos agressivos.</p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Manejo Inteligente da Água</h3>
+                <p>Sistemas de irrigação gota a gota controlados por sensores e inteligência artificial, evitando o desperdício de recursos hídricos.</p>
+            </div>
+
+            <div class="card">
+                <h3>🛰️ Agricultura de Precisão</h3>
+                <p>Drones, sensores e mapeamento via satélite identificam as necessidades exatas de cada metro quadrado, otimizando o uso de recursos.</p>
+            </div>
+
+            <div class="card">
+                <h3>🔄 Integração Lavoura-Pecuária-Floresta</h3>
+                <p>Sistemas que combinam diferentes atividades em uma mesma área, recuperando o solo degradado e gerando créditos de carbono.</p>
+            </div>
+
+        </section>
+
+        <!-- Caixa de Destaque -->
+        <section class="equilibrio-box">
+            <h2>A Meta é o Carbono Neutro</h2>
+            <p>Através do plantio direto na palha e da preservação de florestas nativas obrigatórias dentro das propriedades (Reserva Legal), o agro brasileiro avança para mitigar as emissões de gases e equilibrar a balança climática.</p>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Agro Forte Sustentável - Desenvolvido no VS Code</p>
+        <p class="ia-credito">Desenvolvido com o auxílio de Inteligência Artificial</p>
+    </footer>
 
 </body>
 </html>
 
-</body>
-</html>
